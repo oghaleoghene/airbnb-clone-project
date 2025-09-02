@@ -17,4 +17,14 @@ The Airbnb Clone Project is a real-world build that simulates a robust booking p
 - **Containerization (optional):** Docker
 - **CI/CD (optional):** GitHub Actions
 
+## Team Roles
+
+In a project like the Airbnb Clone, different roles ensure smooth collaboration and high-quality output. Here’s a breakdown:
+
+- **Backend Developer**: Designs and implements server-side logic, APIs, and integrates the database with the application.
+- **Database Administrator (DBA)**: Manages the database structure, optimizes queries, ensures data integrity, and oversees backups.
+- **Frontend Developer**: (If included) Builds the user-facing part of the application and connects it with backend APIs.
+- **DevOps Engineer**: Sets up CI/CD pipelines, manages Docker containers, and ensures smooth deployment.
+- **Project Manager / Scrum Master**: Coordinates the team, manages timelines, tracks tasks, and ensures the project stays aligned with goals.
+- **QA Engineer (Tester)**: Tests the system for bugs, ensures features work as expected, and validates security and performance.
 
