@@ -10,7 +10,7 @@ The Airbnb Clone Project is a real-world build that simulates a robust booking p
 - Practice documenting and planning complex software projects.
 - Gain exposure to CI/CD for efficient, reliable deployments.
 
-## Tech Stack (Initial)
+## Tech Stack 
 - **Backend:** Django
 - **Database:** MySQL
 - **API Layer:** GraphQL
@@ -28,3 +28,12 @@ In a project like the Airbnb Clone, different roles ensure smooth collaboration 
 - **Project Manager / Scrum Master**: Coordinates the team, manages timelines, tracks tasks, and ensures the project stays aligned with goals.
 - **QA Engineer (Tester)**: Tests the system for bugs, ensures features work as expected, and validates security and performance.
 
+## Technology Stack
+
+The Airbnb Clone Project leverages modern tools and frameworks to build a scalable, secure, and efficient platform:
+
+- **Django**: A powerful Python web framework used for building the backend, managing business logic, and creating APIs.  
+- **MySQL**: A relational database system used to store structured data such as users, properties, bookings, and payments.  
+- **GraphQL**: Provides a flexible and efficient way for the frontend (or other services) to query only the data it needs from the backend.  
+- **Docker**: (Optional) Used for containerization, ensuring consistent environments across development, testing, and production.  
+- **GitHub Actions**: (Optional) Automates CI/CD pipelines, enabling testing and deployment workflows with every code push.  
