@@ -1,18 +1,20 @@
-# airbnb-clone-project# Airbnb Clone Project
+# Airbnb Clone Project
 
 ## About the Project
-The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It focuses on backend systems, database design, API development, and application security.
+The Airbnb Clone Project is a real-world build that simulates a robust booking platform like Airbnb. It focuses on backend systems, database design, API development, and application security—helping learners practice complex architectures, workflows, and collaboration while building a scalable web app.
 
 ## Project Goals
-- Gain hands-on experience in full-stack development.
-- Learn team collaboration and GitHub workflows.
-- Explore backend technologies and scalable architectures.
+- Master collaborative Git/GitHub workflows.
+- Deepen backend architecture and database design skills.
+- Implement secure API development practices.
+- Practice documenting and planning complex software projects.
+- Gain exposure to CI/CD for efficient, reliable deployments.
 
-## Tech Stack
-- **Backend Framework:** Django  
-- **Database:** MySQL  
-- **API Layer:** GraphQL  
-- **Containerization:** Docker  
-- **CI/CD:** GitHub Actions
+## Tech Stack (Initial)
+- **Backend:** Django
+- **Database:** MySQL
+- **API Layer:** GraphQL
+- **Containerization (optional):** Docker
+- **CI/CD (optional):** GitHub Actions
 
-Added project intro into README
+
