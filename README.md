@@ -37,3 +37,50 @@ The Airbnb Clone Project leverages modern tools and frameworks to build a scalab
 - **GraphQL**: Provides a flexible and efficient way for the frontend (or other services) to query only the data it needs from the backend.  
 - **Docker**: (Optional) Used for containerization, ensuring consistent environments across development, testing, and production.  
 - **GitHub Actions**: (Optional) Automates CI/CD pipelines, enabling testing and deployment workflows with every code push.  
+
+## Database Design
+
+The Airbnb Clone Project relies on a relational database to store and manage critical application data.  
+Here are the core entities and their key fields:
+
+- **Users**  
+  - `id` (primary key)  
+  - `name`  
+  - `email`  
+  - `password` (hashed)  
+  - `role` (guest, host, admin)  
+
+- **Properties**  
+  - `id` (primary key)  
+  - `user_id` (foreign key → Users)  
+  - `title`  
+  - `location`  
+  - `price_per_night`  
+
+- **Bookings**  
+  - `id` (primary key)  
+  - `user_id` (foreign key → Users)  
+  - `property_id` (foreign key → Properties)  
+  - `check_in_date`  
+  - `check_out_date`  
+
+- **Reviews**  
+  - `id` (primary key)  
+  - `user_id` (foreign key → Users)  
+  - `property_id` (foreign key → Properties)  
+  - `rating` (1–5)  
+  - `comment`  
+
+- **Payments**  
+  - `id` (primary key)  
+  - `booking_id` (foreign key → Bookings)  
+  - `amount`  
+  - `status` (pending, completed, failed)  
+  - `payment_date`  
+
+### Relationships
+- A **User** can list multiple **Properties**.  
+- A **User** can make multiple **Bookings**.  
+- A **Booking** is tied to one **Property** and one **User**.  
+- A **Review** is linked to a **User** and a **Property**.  
+- A **Payment** belongs to a **Booking**.  
